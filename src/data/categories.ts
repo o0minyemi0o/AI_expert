@@ -81,6 +81,16 @@ export const categories: Category[] = [
     color: "neon-orange",
     order: 8,
   },
+  {
+    id: "interview",
+    title: "Interview Preparation",
+    shortTitle: "Interview",
+    description:
+      "코딩 인터뷰 알고리즘 패턴과 ML 시스템 설계 면접 준비.",
+    icon: "Target",
+    color: "neon-red",
+    order: 9,
+  },
 ];
 
 export function getCategoryById(id: string) {

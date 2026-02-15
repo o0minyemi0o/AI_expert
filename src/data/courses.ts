@@ -541,6 +541,50 @@ export const courses: Course[] = [
     order: 3,
   },
 
+  // ===== INTERVIEW PREPARATION =====
+  {
+    id: "coding-interview",
+    categoryId: "interview",
+    title: "코딩 인터뷰",
+    shortTitle: "CodingInt",
+    description:
+      "배열/해시맵, 트리/그래프, DP, 그리디 등 핵심 알고리즘 패턴과 ML 코딩 문제까지 체계적 면접 준비.",
+    objectives: [
+      "핵심 알고리즘 패턴(투 포인터, 슬라이딩 윈도우, DP) 체계적 학습",
+      "트리/그래프 탐색과 백트래킹 문제 해결",
+      "ML 특화 코딩 문제(NumPy 구현, 역전파) 대비",
+      "시스템 코딩 문제(LRU 캐시, 스트리밍) 구현",
+      "모의 면접을 통한 시간 관리와 커뮤니케이션 훈련",
+    ],
+    prerequisites: ["python-advanced"],
+    difficulty: "advanced",
+    estimatedHours: 40,
+    lectureCount: 12,
+    tags: ["array", "tree", "dp", "greedy", "ml-coding"],
+    order: 1,
+  },
+  {
+    id: "system-design-ml",
+    categoryId: "interview",
+    title: "ML 시스템 설계",
+    shortTitle: "SysDesign",
+    description:
+      "추천, 검색, 광고, 사기 탐지 등 실전 ML 시스템 설계 면접 준비. 아키텍처, 트레이드오프, 스케일링 전략.",
+    objectives: [
+      "ML 시스템 설계 면접의 체계적 프레임워크 구축",
+      "추천/검색/광고 등 핵심 시스템 아키텍처 설계",
+      "데이터 파이프라인과 모델 서빙 아키텍처 설계",
+      "트레이드오프 분석과 스케일링 전략 수립",
+      "모의 설계 면접을 통한 실전 대비",
+    ],
+    prerequisites: ["mlops", "deep-learning"],
+    difficulty: "expert",
+    estimatedHours: 40,
+    lectureCount: 12,
+    tags: ["system-design", "recommendation", "search", "fraud-detection", "serving"],
+    order: 2,
+  },
+
   // ===== SPECIALIZATION TRACKS =====
   {
     id: "nlp-llm",

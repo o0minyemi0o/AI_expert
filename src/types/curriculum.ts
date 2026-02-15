@@ -6,7 +6,8 @@ export type CategoryId =
   | "algorithms"
   | "machine-learning"
   | "ai-engineering"
-  | "specialization";
+  | "specialization"
+  | "interview";
 
 export type DifficultyLevel = "advanced" | "expert" | "research";
 
